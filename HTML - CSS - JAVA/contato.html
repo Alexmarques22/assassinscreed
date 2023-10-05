@@ -32,29 +32,28 @@
                     </ul>
 
                 </nav>
-                <div class="box">
-                    <input type="text" class="search-txt" placeholder="">
-
-                </div>
-
-
-
+                
             </header>
             <main>
                 <section>
-                    <h2>Contato</h2>
-                    <form action="" method="post">
+                    
+                    <form action="" method="GET" id="meuFormulario">
+                        <h2>Contato</h2>
 
                         <label>Nome</label>
-                        <input type="text" name="name" placeholder="Digite seu nome">
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                        
                         <label>Telefone</label>
-                        <input type="number" name="number" placeholder="Digite seu telefone">
+                        <input type="number" name="telefone" id="telefone" placeholder="Digite seu telefone">
+                        
                         <label>E-mail</label>
-                        <input type="email" name="email" placeholder="Digite seu E-mail">
-                        <label>Mensagem</label>
-                        <textarea name="Mensagem" cols="30" rows="10" placeholder="Degite uma mensagem"></textarea>
-                        <button type="submit">Enviar</button>
-                        <input type="hidden" name="redirectTo" value="">
+                        <input type="email" name="email" id="email" placeholder="Digite seu E-mail" >
+                        
+                        <label for="">Mensagem</label>
+                        <textarea name="Mensagem" cols="30" rows="10" id="mensagem" placeholder="Degite uma mensagem"></textarea>
+                        
+                        <input type="submit" value="Enviar">
+                       
                     </form>
                 </section>
             </main>
@@ -62,5 +61,6 @@
         </section>
     </main>
 </body>
+<script src="./script/contato.js"></script>
 
 </html>
