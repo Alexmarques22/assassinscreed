@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100px;
+
+
+}
+
+.menu ul {
+    list-style: none;
+
+
+
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 40px;
+
+
+
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+
+    padding: 7px 20px;
+    border-radius: 10px;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+
+}
+.searct-box
+{
+    transform: translate(-50%,-50%);
+    background: #353b48;
+    height: 40px;
+}
+
+.menu ul li a:hover,
+.menu ul a.link-ativo {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border: 2px solid black;
+}
+
+#home {
+
+    background-image: url(./img/imagemhome.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+
+
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 2px solid black;
+    border: 2px solid black;
+    padding: 1px 20px;
+    
+    background-color: rgb(0, 0, 0, 0.5);
+
+
+}
+
+#homecontato {
+
+    background-image: url(./img/contato.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+#homeserviço {
+
+    background-image: url(./img/serviço.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+#homesobre {
+
+    background-image: url(./img/logos-assassins-creed-.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+#homejogos {
+
+    background-image: url(./img/jogos.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+
+#meuFormulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1px 750px;
+    width: 500px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    background-color: rgb(0, 0, 0, 0.5);
+
+
+}
